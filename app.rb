@@ -7,5 +7,10 @@ class App < Roda
       p 'HELLO block'
       'Hello Lucid!'
     end
+
+    r.on 'goodbye' do
+      p 'GOODBYE block'
+      'Goodbye Lucid'
+    end
   end
 end
